@@ -2,13 +2,10 @@ version: '3.8'
 
 services:
   web:
-    build: .
+    image: ${REGISTRY}/${IMAGE_NAME}:${TAG:-latest}
     ports:
       - "8090:8090"
-    volumes:
-      - .:/app
-      - /app/node_modules
-      - /app/.next
     environment:
-      - NODE_ENV=development
-    command: npm run dev -- -p 8090
+      - NODE_ENV=production
+    restart: unless-stopped
+    command: npm start
