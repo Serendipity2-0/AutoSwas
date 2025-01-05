@@ -69,3 +69,4 @@ docker compose logs -f
 # Check container status
 docker compose ps
 ```
+ngrok config add-authtoken 2QVdpUBrRA4VYC7GWF0Ni8YIyM2_4e7YNEjZGGJpbL3Q2EJg7

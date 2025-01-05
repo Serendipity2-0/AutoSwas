@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { Dialog } from "@headlessui/react";
 import { PlusIcon } from "@heroicons/react/24/outline";
 import type { FinanceTask } from "../../lib/db";
+import { trackEvent } from "../../lib/analytics";
 
 /**
  * Processes page component
@@ -16,6 +17,12 @@ export default function ProcessesPage() {
 
   useEffect(() => {
     fetchTasks();
+    // Track page view with additional context
+    trackEvent(
+      'view_process_list',
+      'processes',
+      'Process List View',
+    );
   }, []);
 
   /**
@@ -44,7 +51,14 @@ export default function ProcessesPage() {
       <div className="flex justify-between items-center mb-8">
         <h1 className="text-2xl font-bold">Processes Sourced</h1>
         <button
-          onClick={() => setIsOpen(true)}
+          onClick={() => {
+            setIsOpen(true);
+            trackEvent(
+              'open_add_process',
+              'processes',
+              'Open Add Process Form'
+            );
+          }}
           className="bg-indigo-600 text-white px-4 py-2 rounded-lg flex items-center gap-2 hover:bg-indigo-700"
         >
           <PlusIcon className="h-5 w-5" />
@@ -144,9 +158,24 @@ export default function ProcessesPage() {
                   const updatedTasks = await response.json();
                   setTasks(updatedTasks);
                   setIsOpen(false);
+
+                  // Track successful process addition
+                  trackEvent(
+                    'add_process_success',
+                    'processes',
+                    data.TaskName,
+                    data.Duration
+                  );
                 } catch (error) {
                   console.error('Failed to add task:', error);
                   alert('Failed to add task. Please try again.');
+                  
+                  // Track failed process addition
+                  trackEvent(
+                    'add_process_error',
+                    'processes',
+                    'Process Addition Failed'
+                  );
                 }
               }}
               onCancel={() => setIsOpen(false)}
@@ -183,6 +212,11 @@ function AddProcessForm({ onSubmit, onCancel }: AddProcessFormProps) {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    trackEvent(
+      'submit_process_form',
+      'processes',
+      formData.TaskName
+    );
     onSubmit(formData);
   };
 
