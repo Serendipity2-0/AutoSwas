@@ -1,0 +1,51 @@
+﻿Email ID,Team,Process Name,Description,Apps Used,Frequency,Duration,Volume,Yearly Volume,Yearly Duration,Process Status,Documentation,ROI on Automation,Automation Development,Suggested Tools
+kcdeepak1988@gmail.com,AP,Invoice Verification,Verify invoices against POs,"ERP, Excel",Daily,00:30,10,,,Unstructured,,High,User-lead,RPA
+kcdeepak1988@gmail.com,AP,Payment Release,Initiate and finalize AP payments,"ERP, Browser",Weekly,01:00,5,,,Standardized,,High,User-lead,Python
+kcdeepak1988@gmail.com,AP,Vendor Statement Reconciliation,Compare vendor statements with AP ledger,"Excel, Email",Monthly,02:00,6,,,Optimized,,Medium,Developer-lead,Low-code RPA
+kcdeepak1988@gmail.com,AP,T&E Report Check,Verify employee travel & expense submissions,"Excel, PDF",Monthly,01:30,8,,,Optimized,,High,User-lead,Macros
+kcdeepak1988@gmail.com,AP,Accruals Calculation,Calculate monthly accruals for payables,"Excel, ERP",Monthly,01:00,5,,,Standardized,,Medium,Developer-lead,Python
+kcdeepak1988@gmail.com,AP,Manual Check Reconciliation,Reconcile manual checks issued,"Legacy Systems, Excel",Monthly,01:45,4,,,Unstructured,,Low,User-lead,Native Automation
+kcdeepak1988@gmail.com,AP,Daily Payment Batch,Generate daily AP payment batches,"ERP, Browser",Daily,00:30,5,,,Optimized,,High,User-lead,RPA
+kcdeepak1988@gmail.com,AP,Credit Note Verification,Review vendor credit notes for accuracy,"Excel, Email",Weekly,01:00,8,,,Standardized,,Medium,Developer-lead,Macros
+charles.mitchell@company.com,AP,AP Ledger Close,Reconcile AP sub-ledger monthly,"ERP, Email",Monthly,01:00,6,,,Standardized,,Medium,User-lead,Macros
+charles.mitchell@company.com,AP,Prepayments Review,Track & post prepayment entries,"Excel, ERP",Monthly,01:30,4,,,Unstructured,,Medium,Developer-lead,Python
+charles.mitchell@company.com,AP,T&E Spot Check,Spot-check travel & expense claims,"Excel, PDF",Weekly,00:45,3,,,Unstructured,,High,User-lead,Low-code RPA
+charles.mitchell@company.com,AP,AP Manual Checks Review,Monthly review of manually issued checks,"Legacy Systems, Excel",Monthly,02:00,3,,,Unstructured,,Low,User-lead,Native Automation
+charles.mitchell@company.com,AR,Customer Payment Posting,Post incoming customer payments to AR,"ERP, Excel",Daily,00:30,8,,,Standardized,,High,User-lead,RPA
+charles.mitchell@company.com,AR,Credit Memo Issuance,Issue credits for overpayments/returns,"ERP, Email",Weekly,00:30,6,,,Optimized,,High,User-lead,Python
+charles.mitchell@company.com,AR,AR Aging Analysis,Check overdue AR via aging reports,Reporting Tools,Weekly,01:00,4,,,Unstructured,,Medium,Developer-lead,Low-code RPA
+charles.mitchell@company.com,AR,Customer Master Updates,Update or add new customer records,"Excel, ERP",Monthly,01:15,4,,,Unstructured,,High,User-lead,Macros
+eric.sandoval@company.com,AR,AR Monthly Close,Close AR sub-ledger & reconcile to GL,"ERP, Email",Monthly,01:30,5,,,Standardized,,Medium,Developer-lead,Python
+eric.sandoval@company.com,AR,Bad Debt Provision,Calculate doubtful accounts allowance,"ERP, Excel",Quarterly,01:00,3,,,Unstructured,,Low,User-lead,Native Automation
+eric.sandoval@company.com,AR,Cash Receipt Matching,Match receipts to correct invoices,"ERP, Excel",Daily,00:45,5,,,Standardized,,High,User-lead,RPA
+eric.sandoval@company.com,AR,Overpayment Adjustments,Correct overpayments or duplicates,"ERP, Email",Weekly,00:30,4,,,Optimized,,High,User-lead,Macros
+eric.sandoval@company.com,AR,Dunning Emails,Send overdue reminders to customers,"Email, Reporting Tools",Weekly,00:45,5,,,Standardized,,Medium,Developer-lead,RPA
+eric.sandoval@company.com,AR,Customer Profile Maintenance,Keep customer details updated,"Excel, ERP",Monthly,00:30,4,,,Unstructured,,High,User-lead,Low-code RPA
+eric.sandoval@company.com,AR,AR Ledger Reconciliation,Reconcile AR sub-ledger monthly,"ERP, Email",Monthly,01:00,5,,,Unstructured,,Medium,Developer-lead,Macros
+eric.sandoval@company.com,AR,AR Accruals & Reserves,Record accruals for uncollected revenue,"ERP, Excel",Monthly,01:15,4,,,Standardized,,Medium,Developer-lead,Python
+eric.sandoval@company.com,AR,Large Customer Recon,Deep-dive recon for major customer accounts,"Legacy, Excel",Quarterly,02:00,3,,,Unstructured,,Low,User-lead,Native Automation
+george.harris@company.com,GL,Journal Entry Posting,Post daily journal entries to GL,"ERP, Excel",Daily,00:30,6,,,Standardized,,High,User-lead,RPA
+george.harris@company.com,GL,Cash Account Reconciliation,Match daily bank statements with GL,"ERP, Browser",Daily,01:00,4,,,Optimized,,High,User-lead,Python
+george.harris@company.com,GL,GL Integrity Checks,Spot-check trial balance for misposts,"Excel, Reporting Tools",Weekly,00:30,3,,,Unstructured,,Medium,Developer-lead,Low-code RPA
+george.harris@company.com,GL,Intercompany Balancing,Weekly recon of intercompany entries,"ERP, Email",Weekly,00:45,2,,,Unstructured,,High,User-lead,Macros
+george.harris@company.com,GL,GL Month-End Close,Finalize GL after sub-ledger closures,"ERP, Email",Monthly,01:30,4,,,Standardized,,Medium,Developer-lead,Python
+george.harris@company.com,GL,Accrual & Deferral Posting,Post monthly accrual & deferral entries,"Excel, ERP",Monthly,00:45,6,,,Unstructured,,Medium,Developer-lead,Low-code RPA
+george.harris@company.com,GL,Daily GL Update,"Enter daily standard JEs (depreciation, etc.)","ERP, Excel",Daily,00:30,5,,,Standardized,,High,User-lead,Macros
+george.harris@company.com,GL,Bank to GL Checks,Reconcile daily bank transactions vs. GL,"ERP, Browser",Daily,00:45,3,,,Optimized,,High,User-lead,Python
+isaac.wu@company.com,GL,Weekly Account Reconciliation,Reconcile select GL accounts weekly,"Excel, Reporting Tools",Weekly,01:00,2,,,Standardized,,Medium,Developer-lead,RPA
+isaac.wu@company.com,GL,Suspense Account Clearance,Resolve suspense account items,"ERP, Excel",Weekly,00:45,3,,,Unstructured,,High,User-lead,Low-code RPA
+isaac.wu@company.com,GL,GL Period Close,Perform monthly close & produce final TB,"ERP, Email",Monthly,01:30,4,,,Standardized,,Medium,Developer-lead,Python
+isaac.wu@company.com,GL,Reclass & Allocations,Post reclass entries & cost allocations,"Excel, ERP",Monthly,01:00,4,,,Unstructured,,Medium,Developer-lead,Macros
+isaac.wu@company.com,GL,Entity Consolidation,Large cross-entity consolidation & adjustments,"Legacy Systems, Excel",Quarterly,02:15,2,,,Unstructured,,Low,User-lead,Native Automation
+julia.hernandez@company.com,Payroll,Time Sheet Verification,Validate employee-submitted hours,"Excel, Email",Weekly,00:30,5,,,Standardized,,Medium,Developer-lead,RPA
+julia.hernandez@company.com,Payroll,Personnel Changes Entry,Update payroll system with new hires/terms,"ERP, Excel",Daily,00:45,3,,,Optimized,,High,User-lead,Python
+julia.hernandez@company.com,Payroll,Weekly Overtime Calculation,Calculate overtime pay for weekly hours,"Excel, Browser",Weekly,01:00,2,,,Unstructured,,Medium,Developer-lead,Macros
+julia.hernandez@company.com,Payroll,Deduction & Tax Check,Ensure correct tax/benefit deductions,Reporting Tools,Weekly,00:45,2,,,Unstructured,,High,User-lead,Low-code RPA
+julia.hernandez@company.com,Payroll,Payroll Month-End Close,Finalize monthly payroll run,"ERP, Email",Monthly,01:00,6,,,Standardized,,Medium,Developer-lead,Python
+julia.hernandez@company.com,Payroll,Benefits Reconciliation,Reconcile health/pension benefits,"Excel, ERP",Monthly,01:30,4,,,Unstructured,,Medium,Developer-lead,Macros
+ken.miller@company.com,Payroll,Bonus & Commission Processing,Calculate monthly variable pay,"Legacy Systems, Excel",Monthly,02:00,3,,,Unstructured,,High,User-lead,RPA
+ken.miller@company.com,Payroll,Attendance Data Check,Cross-check clock-in/out vs. timesheet,"Excel, Email",Weekly,00:45,3,,,Optimized,,High,User-lead,Python
+ken.miller@company.com,Payroll,Payroll Adjustments,Correct wage under/overpayments,"ERP, Excel",Daily,00:30,4,,,Standardized,,Medium,Developer-lead,Low-code RPA
+ken.miller@company.com,Payroll,Weekly Payslip Review,Check payslip accuracy before distribution,"Excel, PDF",Weekly,00:30,3,,,Unstructured,,Low,User-lead,Native Automation
+ken.miller@company.com,Payroll,GL Interface for Payroll,Transfer payroll results to GL,Reporting Tools,Monthly,01:00,6,,,Unstructured,,Medium,Developer-lead,Python
+ken.miller@company.com,Payroll,Payroll Finalization,Verify final monthly payroll calculations,"ERP, Email",Monthly,01:30,4,,,Standardized,,High,User-lead,RPA
